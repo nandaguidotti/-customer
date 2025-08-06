@@ -5,9 +5,8 @@ import streamlit as st
 import plotly.express as px
 import requests
 from dotenv import load_dotenv
-import plotly.graph_objects as go
 
-from dashboard.load_result import load_all_results
+from load_result import load_all_results
 
 # ========== CONFIGURATION ==========
 st.set_page_config(layout="wide")

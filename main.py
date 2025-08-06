@@ -1,19 +1,17 @@
-import difflib
 import os
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 import requests
 from dotenv import load_dotenv
-import plotly.graph_objects as go
 
-from dashboard.load_result import load_all_results
+from load_result import load_all_results
 
 # ========== CONFIGURATION ==========
 st.set_page_config(layout="wide")
 st.title("🔍 Comparative Model Analysis (multi-models, multi-customers)")
 
-BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output_forecasts'))
+BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), 'output_forecasts'))
 
 # with st.spinner("Loading data..."):
 #     df_all_test, df_all_future = load_all_results(BASE_PATH)
