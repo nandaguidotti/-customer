@@ -1,0 +1,5 @@
+[2025-08-05 20:09:42.634116] Training completed for customer4.1 - cd_po
+[2025-08-05 20:38:09.173420] Starting prediction for customer4.1 - cd_po
+[2025-08-05 20:38:09.365036] Prediction completed for customer4.1 - cd_po
+[2025-08-05 20:38:39.719111] Starting prediction for customer4.1 - cd_po
+[2025-08-05 20:38:39.908090] Prediction completed for customer4.1 - cd_po

@@ -1,0 +1,17 @@
+Prediction started at: 2025-08-05T20:37:34.444704
+Customer: customer3.1, Scenario: cd
+Loaded model from: output_forecasts/customer3.1/lstm_cd/2025-08-05_20-08-08/model_customer3.1_lstm_cd.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 80ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 84ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 39ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+Test results saved at: output_forecasts/customer3.1/lstm_cd/2025-08-05_20-08-08/test_results.csv
+Future forecast saved at: output_forecasts/customer3.1/lstm_cd/2025-08-05_20-08-08/future_forecast.csv
+✅ Results saved in: output_forecasts/customer3.1/lstm_cd/2025-08-05_20-08-08
+Prediction finished at: 2025-08-05T20:37:34.732970

@@ -1,0 +1,66 @@
+Training started at: 2025-08-05 20:29:15.497473
+Customer: customer4.2, Scenario: cd_po
+                    Description             Value
+0                    Session id                42
+1                        Target   customer_demand
+2                   Target type        Regression
+3           Original data shape           (37, 2)
+4        Transformed data shape           (37, 2)
+5   Transformed train set shape           (25, 2)
+6    Transformed test set shape           (12, 2)
+7              Numeric features                 1
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator             KFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  reg-default-name
+18                          USI              5e7e
+                                    Model        MAE           MSE       RMSE  \
+lr                      Linear Regression   584.8375  7.090194e+05   695.6080   
+lasso                    Lasso Regression   584.8374  7.090195e+05   695.6080   
+ridge                    Ridge Regression   584.8375  7.090194e+05   695.6080   
+en                            Elastic Net   584.8374  7.090195e+05   695.6080   
+lar                Least Angle Regression   584.8375  7.090194e+05   695.6080   
+llar         Lasso Least Angle Regression   584.8374  7.090195e+05   695.6080   
+omp           Orthogonal Matching Pursuit   584.8375  7.090194e+05   695.6080   
+br                         Bayesian Ridge   582.5898  7.103079e+05   694.9627   
+huber                     Huber Regressor   514.8943  7.338680e+05   645.5724   
+par          Passive Aggressive Regressor   597.3207  8.122193e+05   722.4695   
+et                  Extra Trees Regressor   834.7930  1.125970e+06   955.7088   
+knn                 K Neighbors Regressor  1179.6833  3.871296e+06  1403.0917   
+rf                Random Forest Regressor   821.5728  1.557866e+06   963.6244   
+ada                    AdaBoost Regressor   974.8667  1.513578e+06  1064.1251   
+gbr           Gradient Boosting Regressor   967.3920  1.644164e+06  1051.4609   
+dt                Decision Tree Regressor   969.2667  1.652591e+06  1054.9441   
+lightgbm  Light Gradient Boosting Machine  3065.0867  1.748101e+07  3380.6197   
+dummy                     Dummy Regressor  3065.0867  1.748101e+07  3380.6197   
+
+               R2   RMSLE    MAPE  TT (Sec)  
+lr        -0.6585  0.2514  0.2716     0.214  
+lasso     -0.6585  0.2514  0.2716     0.003  
+ridge     -0.6585  0.2514  0.2716     0.003  
+en        -0.6585  0.2514  0.2716     0.003  
+lar       -0.6585  0.2514  0.2716     0.003  
+llar      -0.6585  0.2514  0.2716     0.003  
+omp       -0.6585  0.2514  0.2716     0.003  
+br        -0.6594  0.2544  0.2712     0.003  
+huber     -0.6765  0.1911  0.2319     0.003  
+par       -1.0122  0.2795  0.2982     0.003  
+et        -1.3075  0.3258  0.3320     0.014  
+knn       -1.3309  0.3424  0.3938     0.005  
+rf        -1.3943  0.3078  0.3541     0.017  
+ada       -1.5116  0.3198  0.3454     0.007  
+gbr       -1.8181  0.3573  0.3772     0.006  
+dt        -1.8252  0.3592  0.3779     0.003  
+lightgbm -14.0038  0.7354  1.3025     0.004  
+dummy    -14.0038  0.7354  1.3025     0.003  
+Transformation Pipeline and Model Successfully Saved
+Model trained and saved.
+Model path: output_forecasts/customer4.2/pycaret_cd_po/2025-08-05_20-29-15/model_customer4.2_pycaret_cd_po
+Model comparison saved at: output_forecasts/customer4.2/pycaret_cd_po/2025-08-05_20-29-15/model_comparison.csv
+Training finished at: 2025-08-05 20:29:20.133184

@@ -1,0 +1,6 @@
+{
+  "fit_intercept": true,
+  "n_nonzero_coefs": null,
+  "precompute": "auto",
+  "tol": null
+}

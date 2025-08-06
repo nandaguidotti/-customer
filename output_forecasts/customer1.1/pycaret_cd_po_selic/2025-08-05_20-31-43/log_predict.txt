@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:44:10.662174
+Customer: customer1.1, Scenario: cd_po_selic
+Transformation Pipeline and Model Successfully Loaded
+Test results saved at: output_forecasts/customer1.1/pycaret_cd_po_selic/2025-08-05_20-31-43/test_results.csv
+Future forecast saved at: output_forecasts/customer1.1/pycaret_cd_po_selic/2025-08-05_20-31-43/future_forecast.csv
+✅ Results saved in: output_forecasts/customer1.1/pycaret_cd_po_selic/2025-08-05_20-31-43
+Prediction finished at: 2025-08-05 20:44:10.860236

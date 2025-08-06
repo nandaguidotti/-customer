@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:42:31.867561
+Customer: customer3.1, Scenario: cd_selic_ipca
+Loaded model from: output_forecasts/customer3.1/rc_cd_selic_ipca/2025-08-05_20-24-47/model_customer3.1_rc_cd_selic_ipca.pkl
+Test results saved at: output_forecasts/customer3.1/rc_cd_selic_ipca/2025-08-05_20-24-47/test_results.csv
+Future forecast saved at: output_forecasts/customer3.1/rc_cd_selic_ipca/2025-08-05_20-24-47/future_forecast.csv
+✅ Results saved in: output_forecasts/customer3.1/rc_cd_selic_ipca/2025-08-05_20-24-47
+Prediction finished at: 2025-08-05 20:42:31.909798

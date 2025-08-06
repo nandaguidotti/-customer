@@ -1,0 +1,17 @@
+Prediction started at: 2025-08-05T20:41:19.682512
+Customer: customer2.1, Scenario: cd_selic_ipca
+Loaded model from: output_forecasts/customer2.1/lstm_cd_selic_ipca/2025-08-05_20-13-26/model_customer2.1_lstm_cd_selic_ipca.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 42ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 41ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+Test results saved at: output_forecasts/customer2.1/lstm_cd_selic_ipca/2025-08-05_20-13-26/test_results.csv
+Future forecast saved at: output_forecasts/customer2.1/lstm_cd_selic_ipca/2025-08-05_20-13-26/future_forecast.csv
+✅ Results saved in: output_forecasts/customer2.1/lstm_cd_selic_ipca/2025-08-05_20-13-26
+Prediction finished at: 2025-08-05T20:41:19.874045

@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:42:03.219865
+Customer: customer1.1, Scenario: cd_po_ipca
+Loaded model from: output_forecasts/customer1.1/rc_cd_po_ipca/2025-08-05_20-19-26/model_customer1.1_rc_cd_po_ipca.pkl
+Test results saved at: output_forecasts/customer1.1/rc_cd_po_ipca/2025-08-05_20-19-26/test_results.csv
+Future forecast saved at: output_forecasts/customer1.1/rc_cd_po_ipca/2025-08-05_20-19-26/future_forecast.csv
+✅ Results saved in: output_forecasts/customer1.1/rc_cd_po_ipca/2025-08-05_20-19-26
+Prediction finished at: 2025-08-05 20:42:03.261471

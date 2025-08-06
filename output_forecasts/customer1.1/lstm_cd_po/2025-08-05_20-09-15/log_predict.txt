@@ -1,0 +1,34 @@
+Prediction started at: 2025-08-05T20:37:50.327999
+Customer: customer1.1, Scenario: cd_po
+Loaded model from: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15/model_customer1.1_lstm_cd_po.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 42ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 40ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+Test results saved at: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15/test_results.csv
+Future forecast saved at: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15/future_forecast.csv
+✅ Results saved in: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15
+Prediction finished at: 2025-08-05T20:37:50.511741
+Prediction started at: 2025-08-05T20:38:19.066219
+Customer: customer1.1, Scenario: cd_po
+Loaded model from: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15/model_customer1.1_lstm_cd_po.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 40ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 41ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
+
+Test results saved at: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15/test_results.csv
+Future forecast saved at: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15/future_forecast.csv
+✅ Results saved in: output_forecasts/customer1.1/lstm_cd_po/2025-08-05_20-09-15
+Prediction finished at: 2025-08-05T20:38:19.253412

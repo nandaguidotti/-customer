@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer4.2,2025-06,py_Orthogonal,cd_po_ipca,9020,,,
+customer4.2,2025-07,py_Orthogonal,cd_po_ipca,9020,,,
+customer4.2,2025-08,py_Orthogonal,cd_po_ipca,9020,,,
+customer4.2,2025-09,py_Orthogonal,cd_po_ipca,9020,,,

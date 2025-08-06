@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer4.2,2025-02,py_py_AdaBoost,cd,4283,5985,-1701,28.43
+customer4.2,2025-03,py_py_AdaBoost,cd,5561,10675,-5113,47.90
+customer4.2,2025-04,py_py_AdaBoost,cd,4308,10290,-5981,58.13
+customer4.2,2025-05,py_py_AdaBoost,cd,5564,10675,-5110,47.87

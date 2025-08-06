@@ -1,0 +1,30 @@
+{
+  "concentrate_scale": false,
+  "enforce_invertibility": true,
+  "enforce_stationarity": true,
+  "hamilton_representation": false,
+  "maxiter": 50,
+  "measurement_error": false,
+  "method": "lbfgs",
+  "mle_regression": true,
+  "order": [
+    1,
+    0,
+    0
+  ],
+  "out_of_sample_size": 0,
+  "scoring": "mse",
+  "scoring_args": null,
+  "seasonal_order": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "simple_differencing": false,
+  "start_params": null,
+  "suppress_warnings": false,
+  "time_varying_regression": false,
+  "trend": null,
+  "with_intercept": true
+}

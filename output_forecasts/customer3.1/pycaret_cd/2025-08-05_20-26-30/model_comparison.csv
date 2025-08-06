@@ -1,0 +1,22 @@
+Model,MASE,RMSSE,MAE,RMSE,MAPE,SMAPE,R2,TT (Sec)
+Huber w/ Cond. Deseasonalize & Detrending,0.6212,0.624,1273.6612,1486.0172,0.5318,0.336,-0.8534,0.02
+K Neighbors w/ Cond. Deseasonalize & Detrending,0.672,0.6842,1381.6837,1632.9406,0.5786,0.3516,-1.3778,0.04
+Linear w/ Cond. Deseasonalize & Detrending,0.7496,0.7256,1537.0131,1727.969,0.6325,0.3853,-1.5193,0.0767
+Elastic Net w/ Cond. Deseasonalize & Detrending,0.7496,0.7256,1537.0132,1727.969,0.6325,0.3853,-1.5193,0.43
+Ridge w/ Cond. Deseasonalize & Detrending,0.7496,0.7256,1537.0131,1727.969,0.6325,0.3853,-1.5193,0.0667
+Lasso w/ Cond. Deseasonalize & Detrending,0.7496,0.7256,1537.0132,1727.9691,0.6325,0.3853,-1.5193,0.02
+Lasso Least Angular Regressor w/ Cond. Deseasonalize & Detrending,0.7496,0.7256,1537.0132,1727.9691,0.6325,0.3853,-1.5193,0.0667
+Orthogonal Matching Pursuit w/ Cond. Deseasonalize & Detrending,0.7496,0.7256,1537.0131,1727.969,0.6325,0.3853,-1.5193,0.02
+Theta Forecaster,0.7724,0.7485,1583.4895,1781.3672,0.6523,0.3938,-1.6688,0.0167
+Polynomial Trend Forecaster,0.7729,0.7459,1584.6121,1775.2937,0.6511,0.3938,-1.6471,0.4833
+Bayesian Ridge w/ Cond. Deseasonalize & Detrending,0.7729,0.7433,1584.8998,1769.7502,0.6495,0.3937,-1.6327,0.02
+Exponential Smoothing,0.7729,0.7459,1584.6286,1775.3089,0.6511,0.3938,-1.6471,0.3733
+Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.7756,0.7491,1589.9838,1782.7507,0.6533,0.3951,-1.6716,0.0333
+ETS,0.8176,0.7904,1674.6436,1878.1483,0.6505,0.4307,-2.0118,0.0133
+Auto ARIMA,0.8462,0.841,1723.381,1990.9122,0.6859,0.4288,-2.7401,0.39
+ARIMA,0.899,0.8831,1830.4138,2089.0984,0.73,0.4493,-3.0849,0.3733
+Random Forest w/ Cond. Deseasonalize & Detrending,0.9805,0.9452,2001.468,2237.8897,0.7058,0.479,-3.6762,0.0567
+Extra Trees w/ Cond. Deseasonalize & Detrending,1.2753,1.2617,2622.5206,3011.0331,1.0484,0.5235,-7.7366,0.0533
+Gradient Boosting w/ Cond. Deseasonalize & Detrending,1.3825,1.3751,2822.4421,3258.9133,1.0829,0.5842,-8.4266,0.0267
+AdaBoost w/ Cond. Deseasonalize & Detrending,1.4035,1.2851,2852.3266,3030.6191,0.9885,0.6107,-9.1902,0.0333
+Decision Tree w/ Cond. Deseasonalize & Detrending,1.4385,1.404,2936.6108,3327.2034,1.1206,0.6183,-8.8558,0.02

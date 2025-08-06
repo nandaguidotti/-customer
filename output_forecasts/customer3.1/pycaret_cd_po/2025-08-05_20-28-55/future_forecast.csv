@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.1,2025-06,py_Huber,cd_po,3800,,,
+customer3.1,2025-07,py_Huber,cd_po,3800,,,
+customer3.1,2025-08,py_Huber,cd_po,3800,,,
+customer3.1,2025-09,py_Huber,cd_po,3800,,,

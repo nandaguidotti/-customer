@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:43:45.892148
+Customer: customer4.1, Scenario: cd_ipca
+Transformation Pipeline and Model Successfully Loaded
+Test results saved at: output_forecasts/customer4.1/pycaret_cd_ipca/2025-08-05_20-30-12/test_results.csv
+Future forecast saved at: output_forecasts/customer4.1/pycaret_cd_ipca/2025-08-05_20-30-12/future_forecast.csv
+✅ Results saved in: output_forecasts/customer4.1/pycaret_cd_ipca/2025-08-05_20-30-12
+Prediction finished at: 2025-08-05 20:43:46.098665

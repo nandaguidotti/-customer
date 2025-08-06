@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:42:24.768897
+Customer: customer3.0, Scenario: cd_selic
+Loaded model from: output_forecasts/customer3.0/rc_cd_selic/2025-08-05_20-23-27/model_customer3.0_rc_cd_selic.pkl
+Test results saved at: output_forecasts/customer3.0/rc_cd_selic/2025-08-05_20-23-27/test_results.csv
+Future forecast saved at: output_forecasts/customer3.0/rc_cd_selic/2025-08-05_20-23-27/future_forecast.csv
+✅ Results saved in: output_forecasts/customer3.0/rc_cd_selic/2025-08-05_20-23-27
+Prediction finished at: 2025-08-05 20:42:24.810305

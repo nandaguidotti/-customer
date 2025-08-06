@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer4.2,2025-02,rc,cd_po_selic_ipca,6010,5985,25,0.43
+customer4.2,2025-03,rc,cd_po_selic_ipca,9106,10675,-1568,14.69
+customer4.2,2025-04,rc,cd_po_selic_ipca,11278,10290,988,9.60
+customer4.2,2025-05,rc,cd_po_selic_ipca,9745,10675,-929,8.70

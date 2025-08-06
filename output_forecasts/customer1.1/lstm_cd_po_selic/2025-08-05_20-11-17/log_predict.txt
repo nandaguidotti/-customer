@@ -1,0 +1,17 @@
+Prediction started at: 2025-08-05T20:39:46.415151
+Customer: customer1.1, Scenario: cd_po_selic
+Loaded model from: output_forecasts/customer1.1/lstm_cd_po_selic/2025-08-05_20-11-17/model_customer1.1_lstm_cd_po_selic.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 39ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 40ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+Test results saved at: output_forecasts/customer1.1/lstm_cd_po_selic/2025-08-05_20-11-17/test_results.csv
+Future forecast saved at: output_forecasts/customer1.1/lstm_cd_po_selic/2025-08-05_20-11-17/future_forecast.csv
+✅ Results saved in: output_forecasts/customer1.1/lstm_cd_po_selic/2025-08-05_20-11-17
+Prediction finished at: 2025-08-05T20:39:46.590384

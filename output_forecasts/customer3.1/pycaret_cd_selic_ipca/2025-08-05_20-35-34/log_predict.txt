@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:45:14.499976
+Customer: customer3.1, Scenario: cd_selic_ipca
+Transformation Pipeline and Model Successfully Loaded
+Test results saved at: output_forecasts/customer3.1/pycaret_cd_selic_ipca/2025-08-05_20-35-34/test_results.csv
+Future forecast saved at: output_forecasts/customer3.1/pycaret_cd_selic_ipca/2025-08-05_20-35-34/future_forecast.csv
+✅ Results saved in: output_forecasts/customer3.1/pycaret_cd_selic_ipca/2025-08-05_20-35-34
+Prediction finished at: 2025-08-05 20:45:14.782764

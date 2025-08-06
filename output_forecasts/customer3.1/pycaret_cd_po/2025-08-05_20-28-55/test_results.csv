@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.1,2025-02-01,py_Huber,cd_po,3200,2900,300,10.34
+customer3.1,2025-03-01,py_Huber,cd_po,3600,3700,-99,2.70
+customer3.1,2025-04-01,py_Huber,cd_po,5000,3700,1300,35.14
+customer3.1,2025-05-01,py_Huber,cd_po,3800,4600,-799,17.39

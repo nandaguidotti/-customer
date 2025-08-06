@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.1,2025-02,rc,cd,5967,2900,3067,105.76
+customer3.1,2025-03,rc,cd,4895,3700,1195,32.30
+customer3.1,2025-04,rc,cd,2749,3700,-950,25.70
+customer3.1,2025-05,rc,cd,4311,4600,-288,6.27

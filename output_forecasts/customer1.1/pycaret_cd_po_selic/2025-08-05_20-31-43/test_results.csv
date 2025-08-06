@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer1.1,2025-02-01,py_Huber,cd_po_selic,3951,4050,-98,2.43
+customer1.1,2025-03-01,py_Huber,cd_po_selic,2152,1500,652,43.50
+customer1.1,2025-04-01,py_Huber,cd_po_selic,3426,3525,-98,2.81
+customer1.1,2025-05-01,py_Huber,cd_po_selic,2825,2550,275,10.80

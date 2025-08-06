@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.0,2025-02-01,py_Extra,cd_ipca,4036,4400,-363,8.25
+customer3.0,2025-03-01,py_Extra,cd_ipca,4200,5160,-960,18.60
+customer3.0,2025-04-01,py_Extra,cd_ipca,5610,5120,490,9.59
+customer3.0,2025-05-01,py_Extra,cd_ipca,6880,2880,4000,138.89

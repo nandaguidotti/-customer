@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer1.0,2025-02-01,py_Bayesian,cd_ipca,14001,21014,-7012,33.37
+customer1.0,2025-03-01,py_Bayesian,cd_ipca,14001,20958,-6956,33.19
+customer1.0,2025-04-01,py_Bayesian,cd_ipca,14001,25732,-11730,45.59
+customer1.0,2025-05-01,py_Bayesian,cd_ipca,14001,23688,-9686,40.89

@@ -1,0 +1,66 @@
+Training started at: 2025-08-05 20:31:51.012953
+Customer: customer2.0, Scenario: cd_po_selic
+                    Description             Value
+0                    Session id                42
+1                        Target   customer_demand
+2                   Target type        Regression
+3           Original data shape           (37, 3)
+4        Transformed data shape           (37, 3)
+5   Transformed train set shape           (25, 3)
+6    Transformed test set shape           (12, 3)
+7              Numeric features                 2
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator             KFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  reg-default-name
+18                          USI              4658
+                                    Model        MAE           MSE       RMSE  \
+rf                Random Forest Regressor  1041.4820  1.859829e+06  1222.0830   
+ada                    AdaBoost Regressor   991.2181  1.694226e+06  1189.5725   
+et                  Extra Trees Regressor   954.5913  1.509546e+06  1139.8526   
+gbr           Gradient Boosting Regressor  1134.5913  2.209560e+06  1369.7737   
+dummy                     Dummy Regressor  1738.4353  5.432227e+06  1940.9472   
+lightgbm  Light Gradient Boosting Machine  1738.4353  5.432227e+06  1940.9472   
+lar                Least Angle Regression   860.8003  1.360069e+06  1046.5570   
+lr                      Linear Regression   860.8003  1.360069e+06  1046.5570   
+lasso                    Lasso Regression   859.8572  1.360933e+06  1046.3406   
+llar         Lasso Least Angle Regression   859.8572  1.360933e+06  1046.3406   
+br                         Bayesian Ridge   833.0426  1.337403e+06  1009.0182   
+ridge                    Ridge Regression   831.1286  1.334074e+06  1013.1042   
+en                            Elastic Net   828.4099  1.337732e+06  1007.6034   
+omp           Orthogonal Matching Pursuit   827.9961  1.338419e+06  1006.9865   
+knn                 K Neighbors Regressor  1169.8267  2.425267e+06  1393.2128   
+dt                Decision Tree Regressor  1164.6000  2.518431e+06  1482.2992   
+huber                     Huber Regressor   706.6987  1.389384e+06   934.9824   
+par          Passive Aggressive Regressor  1234.3964  2.569773e+06  1445.2753   
+
+              R2   RMSLE    MAPE  TT (Sec)  
+rf       -0.4950  0.0862  0.0750     0.017  
+ada      -0.7330  0.0821  0.0692     0.007  
+et       -1.0355  0.0778  0.0665     0.014  
+gbr      -1.1441  0.0954  0.0802     0.007  
+dummy    -1.1740  0.1407  0.1321     0.003  
+lightgbm -1.1740  0.1407  0.1321     0.004  
+lar      -1.5518  0.0733  0.0613     0.003  
+lr       -1.5518  0.0733  0.0613     0.236  
+lasso    -1.5547  0.0733  0.0612     0.003  
+llar     -1.5547  0.0733  0.0612     0.003  
+br       -1.5691  0.0700  0.0589     0.003  
+ridge    -1.5741  0.0707  0.0591     0.002  
+en       -1.5927  0.0703  0.0588     0.002  
+omp      -1.5953  0.0702  0.0588     0.003  
+knn      -1.7225  0.1002  0.0868     0.006  
+dt       -1.9289  0.1027  0.0815     0.003  
+huber    -1.9465  0.0681  0.0517     0.004  
+par      -2.8475  0.1042  0.0917     0.003  
+Transformation Pipeline and Model Successfully Saved
+Model trained and saved.
+Model path: output_forecasts/customer2.0/pycaret_cd_po_selic/2025-08-05_20-31-51/model_customer2.0_pycaret_cd_po_selic
+Model comparison saved at: output_forecasts/customer2.0/pycaret_cd_po_selic/2025-08-05_20-31-51/model_comparison.csv
+Training finished at: 2025-08-05 20:31:56.035967

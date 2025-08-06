@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer1.0,2025-02,py_KNN,cd,17105,21014,-3908,18.60
+customer1.0,2025-03,py_KNN,cd,17152,20958,-3805,18.16
+customer1.0,2025-04,py_KNN,cd,17317,25732,-8414,32.70
+customer1.0,2025-05,py_KNN,cd,17482,23688,-6205,26.20

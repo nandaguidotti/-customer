@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer4.1,2025-02,py_py_Theta,cd,4606,2800,1806,64.52
+customer4.1,2025-03,py_py_Theta,cd,4674,5250,-575,10.97
+customer4.1,2025-04,py_py_Theta,cd,4741,5075,-333,6.56
+customer4.1,2025-05,py_py_Theta,cd,4809,4375,434,9.93

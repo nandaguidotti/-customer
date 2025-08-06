@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer2.1,2025-02,py_AutoARIMA,cd,6472,6848,-375,5.49
+customer2.1,2025-03,py_AutoARIMA,cd,6472,6784,-311,4.60
+customer2.1,2025-04,py_AutoARIMA,cd,6472,7936,-1463,18.45
+customer2.1,2025-05,py_AutoARIMA,cd,6472,8064,-1591,19.74

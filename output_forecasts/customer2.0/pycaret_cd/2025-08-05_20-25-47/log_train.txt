@@ -1,0 +1,104 @@
+Training started at: 2025-08-05 20:25:47.077557
+Customer: customer2.0, Scenario: cd
+                                         Description                    Value
+0                                         session_id                       42
+1                                             Target          customer_demand
+2                                           Approach               Univariate
+3                                Exogenous Variables              Not Present
+4                                Original data shape                  (37, 1)
+5                             Transformed data shape                  (37, 1)
+6                        Transformed train set shape                  (33, 1)
+7                         Transformed test set shape                   (4, 1)
+8                           Rows with missing values                     0.0%
+9                                     Fold Generator  ExpandingWindowSplitter
+10                                       Fold Number                        3
+11                       Enforce Prediction Interval                    False
+12                   Splits used for hyperparameters                      all
+13                   User Defined Seasonal Period(s)                     None
+14                           Ignore Seasonality Test                    False
+15                        Seasonality Detection Algo                     auto
+16                            Max Period to Consider                       60
+17                         Seasonal Period(s) Tested                     [12]
+18                    Significant Seasonal Period(s)                     [12]
+19  Significant Seasonal Period(s) without Harmonics                     [12]
+20                                  Remove Harmonics                    False
+21                            Harmonics Order Method             harmonic_max
+22                          Num Seasonalities to Use                        1
+23                          All Seasonalities to Use                     [12]
+24                               Primary Seasonality                       12
+25                               Seasonality Present                     True
+26                                  Seasonality Type                      mul
+27                          Target Strictly Positive                     True
+28                                Target White Noise                       No
+29                                     Recommended d                        0
+30                            Recommended Seasonal D                        1
+31                                        Preprocess                    False
+32                                          CPU Jobs                       -1
+33                                           Use GPU                    False
+34                                    Log Experiment                    False
+35                                   Experiment Name          ts-default-name
+36                                               USI                     b461
+                                                             Model    MASE  \
+polytrend                              Polynomial Trend Forecaster   1.558   
+stlf                                                          STLF  1.5864   
+lightgbm_cds_dt  Light Gradient Boosting w/ Cond. Deseasonalize...  1.5893   
+dt_cds_dt        Decision Tree w/ Cond. Deseasonalize & Detrending  1.6902   
+arima                                                        ARIMA  1.7071   
+rf_cds_dt        Random Forest w/ Cond. Deseasonalize & Detrending  1.7773   
+et_cds_dt          Extra Trees w/ Cond. Deseasonalize & Detrending  1.9519   
+knn_cds_dt         K Neighbors w/ Cond. Deseasonalize & Detrending  1.9727   
+ada_cds_dt            AdaBoost w/ Cond. Deseasonalize & Detrending  1.9803   
+omp_cds_dt       Orthogonal Matching Pursuit w/ Cond. Deseasona...  2.0525   
+gbr_cds_dt       Gradient Boosting w/ Cond. Deseasonalize & Det...  2.0589   
+br_cds_dt        Bayesian Ridge w/ Cond. Deseasonalize & Detren...  2.0931   
+en_cds_dt          Elastic Net w/ Cond. Deseasonalize & Detrending   2.232   
+lasso_cds_dt             Lasso w/ Cond. Deseasonalize & Detrending   2.232   
+huber_cds_dt             Huber w/ Cond. Deseasonalize & Detrending  2.2413   
+lr_cds_dt               Linear w/ Cond. Deseasonalize & Detrending  2.2786   
+ridge_cds_dt             Ridge w/ Cond. Deseasonalize & Detrending  2.2786   
+llar_cds_dt      Lasso Least Angular Regressor w/ Cond. Deseaso...  2.2896   
+
+                  RMSSE        MAE       RMSE    MAPE   SMAPE      R2  \
+polytrend        1.5917  1936.8191  2444.5363  0.1686  0.1434  -0.575   
+stlf             1.5394  1950.2542  2341.3032   0.153  0.1369 -1.2668   
+lightgbm_cds_dt  1.6372  1973.1888    2513.17  0.1722  0.1457 -0.6755   
+dt_cds_dt        1.7045  2119.9298  2634.5775  0.1764  0.1522 -1.0345   
+arima            1.6974   2102.197  2588.8005  0.1681  0.1469 -1.8055   
+rf_cds_dt        1.7286  2215.8768  2660.3075  0.1876  0.1603 -0.9091   
+et_cds_dt        1.9881  2415.4315  3041.8838  0.2024  0.1714 -1.8126   
+knn_cds_dt       1.9135  2427.7694  2914.5585  0.2046  0.1748 -1.5796   
+ada_cds_dt        1.975  2457.4232  3027.5046  0.2041  0.1739 -1.6798   
+omp_cds_dt       2.1812  2535.6079  3328.7052  0.2151   0.178 -2.4308   
+gbr_cds_dt       2.0149  2547.7703   3083.986  0.2099  0.1793 -1.9234   
+br_cds_dt        1.8427  2574.8373  2795.1866  0.2015  0.1807 -2.1027   
+en_cds_dt        2.0494  2756.3391  3127.0799  0.2081  0.1852 -2.7569   
+lasso_cds_dt     2.0494  2756.3413   3127.081  0.2081  0.1852 -2.7569   
+huber_cds_dt     1.9786  2741.7833  2981.5412   0.214  0.1904 -2.6297   
+lr_cds_dt        2.0339  2815.4538  3103.0867  0.2184  0.1931 -2.7412   
+ridge_cds_dt     2.0339  2815.4537  3103.0866  0.2184  0.1931 -2.7412   
+llar_cds_dt      2.1449  2829.4159  3274.9812  0.2255   0.196 -2.8651   
+
+                 TT (Sec)  
+polytrend          0.4800  
+stlf               0.3700  
+lightgbm_cds_dt    0.0367  
+dt_cds_dt          0.0233  
+arima              0.3633  
+rf_cds_dt          0.0600  
+et_cds_dt          0.0600  
+knn_cds_dt         0.0433  
+ada_cds_dt         0.0333  
+omp_cds_dt         0.0333  
+gbr_cds_dt         0.0300  
+br_cds_dt          0.0267  
+en_cds_dt          0.0833  
+lasso_cds_dt       0.0267  
+huber_cds_dt       0.4400  
+lr_cds_dt          0.1067  
+ridge_cds_dt       0.0867  
+llar_cds_dt        0.4433  
+Transformation Pipeline and Model Successfully Saved
+Model trained and saved.
+Model path: output_forecasts/customer2.0/pycaret_cd/2025-08-05_20-25-47/model_customer2.0_pycaret_cd
+Model comparison saved at: output_forecasts/customer2.0/pycaret_cd/2025-08-05_20-25-47/model_comparison.csv
+Training finished at: 2025-08-05 20:26:04.275744

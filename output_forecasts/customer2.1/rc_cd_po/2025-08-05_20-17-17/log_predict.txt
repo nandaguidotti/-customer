@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:41:51.959669
+Customer: customer2.1, Scenario: cd_po
+Loaded model from: output_forecasts/customer2.1/rc_cd_po/2025-08-05_20-17-17/model_customer2.1_rc_cd_po.pkl
+Test results saved at: output_forecasts/customer2.1/rc_cd_po/2025-08-05_20-17-17/test_results.csv
+Future forecast saved at: output_forecasts/customer2.1/rc_cd_po/2025-08-05_20-17-17/future_forecast.csv
+✅ Results saved in: output_forecasts/customer2.1/rc_cd_po/2025-08-05_20-17-17
+Prediction finished at: 2025-08-05 20:41:52.001510

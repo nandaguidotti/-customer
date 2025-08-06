@@ -1,0 +1,22 @@
+Model,MASE,RMSSE,MAE,RMSE,MAPE,SMAPE,R2,TT (Sec)
+K Neighbors w/ Cond. Deseasonalize & Detrending,0.6113,0.6799,1935.4483,2401.0689,0.1585,0.1385,-0.7174,0.0433
+Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.7006,0.7302,2197.7042,2567.7466,0.1684,0.1542,-0.8091,0.0333
+Bayesian Ridge w/ Cond. Deseasonalize & Detrending,0.7006,0.7302,2197.8207,2567.8296,0.1684,0.1542,-0.8092,0.02
+Polynomial Trend Forecaster,0.7039,0.7326,2208.3576,2576.0983,0.1691,0.1549,-0.827,0.4933
+Exponential Smoothing,0.7039,0.7325,2208.308,2576.0271,0.1691,0.1549,-0.8269,0.3667
+Theta Forecaster,0.7062,0.7177,2206.8942,2521.2533,0.1628,0.155,-0.8146,0.0133
+Lasso w/ Cond. Deseasonalize & Detrending,0.7092,0.7341,2225.3675,2581.5129,0.1706,0.1561,-0.8239,0.02
+Lasso Least Angular Regressor w/ Cond. Deseasonalize & Detrending,0.7092,0.7341,2225.3675,2581.5129,0.1706,0.1561,-0.8239,0.02
+Orthogonal Matching Pursuit w/ Cond. Deseasonalize & Detrending,0.7092,0.7341,2225.3676,2581.513,0.1706,0.1561,-0.8239,0.02
+Linear w/ Cond. Deseasonalize & Detrending,0.7092,0.7341,2225.3676,2581.513,0.1706,0.1561,-0.8239,0.4367
+Elastic Net w/ Cond. Deseasonalize & Detrending,0.7092,0.7341,2225.3676,2581.5129,0.1706,0.1561,-0.8239,0.0733
+Ridge w/ Cond. Deseasonalize & Detrending,0.7092,0.7341,2225.3676,2581.513,0.1706,0.1561,-0.8239,0.0733
+Huber w/ Cond. Deseasonalize & Detrending,0.7127,0.7264,2240.9155,2554.9333,0.1743,0.157,-0.7444,0.02
+Auto ARIMA,0.7533,0.7836,2362.3267,2761.9756,0.1658,0.1682,-2.0976,0.4033
+AdaBoost w/ Cond. Deseasonalize & Detrending,0.7996,0.892,2502.217,3150.1943,0.1799,0.1858,-3.2742,0.0233
+Random Forest w/ Cond. Deseasonalize & Detrending,0.8342,0.8642,2628.0733,3046.3237,0.2053,0.19,-1.7587,0.0533
+ETS,0.8389,0.8567,2615.2511,3007.8034,0.1867,0.1836,-1.7949,0.0167
+Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.895,1.0068,2797.3651,3532.8353,0.2126,0.2069,-2.4793,0.08
+ARIMA,0.9278,0.9199,2877.6885,3226.1377,0.1897,0.2042,-2.8096,0.3633
+Decision Tree w/ Cond. Deseasonalize & Detrending,1.0552,1.1074,3303.1936,3887.786,0.2485,0.2415,-3.2129,0.0733
+Extra Trees w/ Cond. Deseasonalize & Detrending,1.1294,1.1157,3561.0486,3951.9842,0.2588,0.264,-6.4285,0.0567

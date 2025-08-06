@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer2.1,2025-02,rc,cd_selic,7237,6848,389,5.69
+customer2.1,2025-03,rc,cd_selic,5100,6784,-1683,24.81
+customer2.1,2025-04,rc,cd_selic,6088,7936,-1847,23.28
+customer2.1,2025-05,rc,cd_selic,6244,8064,-1819,22.57

@@ -1,0 +1,17 @@
+Prediction started at: 2025-08-05T20:38:49.633667
+Customer: customer1.1, Scenario: cd_ipca
+Loaded model from: output_forecasts/customer1.1/lstm_cd_ipca/2025-08-05_20-09-56/model_customer1.1_lstm_cd_ipca.keras
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 39ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 44ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 40ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
+Test results saved at: output_forecasts/customer1.1/lstm_cd_ipca/2025-08-05_20-09-56/test_results.csv
+Future forecast saved at: output_forecasts/customer1.1/lstm_cd_ipca/2025-08-05_20-09-56/future_forecast.csv
+✅ Results saved in: output_forecasts/customer1.1/lstm_cd_ipca/2025-08-05_20-09-56
+Prediction finished at: 2025-08-05T20:38:49.829508

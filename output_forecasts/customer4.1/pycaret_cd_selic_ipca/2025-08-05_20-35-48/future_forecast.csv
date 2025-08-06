@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer4.1,2025-06,LightGBM,cd_selic_ipca,2785,,,
+customer4.1,2025-07,LightGBM,cd_selic_ipca,2785,,,
+customer4.1,2025-08,LightGBM,cd_selic_ipca,2785,,,
+customer4.1,2025-09,LightGBM,cd_selic_ipca,2785,,,

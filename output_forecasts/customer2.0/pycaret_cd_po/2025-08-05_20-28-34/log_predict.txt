@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:43:17.199999
+Customer: customer2.0, Scenario: cd_po
+Transformation Pipeline and Model Successfully Loaded
+Test results saved at: output_forecasts/customer2.0/pycaret_cd_po/2025-08-05_20-28-34/test_results.csv
+Future forecast saved at: output_forecasts/customer2.0/pycaret_cd_po/2025-08-05_20-28-34/future_forecast.csv
+✅ Results saved in: output_forecasts/customer2.0/pycaret_cd_po/2025-08-05_20-28-34
+Prediction finished at: 2025-08-05 20:43:17.509693

@@ -1,0 +1,66 @@
+Training started at: 2025-08-05 20:32:41.806185
+Customer: customer1.0, Scenario: cd_po_selic_ipca
+                    Description             Value
+0                    Session id                42
+1                        Target   customer_demand
+2                   Target type        Regression
+3           Original data shape           (37, 4)
+4        Transformed data shape           (37, 4)
+5   Transformed train set shape           (25, 4)
+6    Transformed test set shape           (12, 4)
+7              Numeric features                 3
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator             KFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  reg-default-name
+18                          USI              bef2
+                                    Model        MAE           MSE       RMSE  \
+par          Passive Aggressive Regressor  1053.8139  2.459085e+06  1356.3989   
+huber                     Huber Regressor  1051.5912  2.269022e+06  1376.2205   
+omp           Orthogonal Matching Pursuit  1164.2409  2.579407e+06  1494.1955   
+br                         Bayesian Ridge  1174.5046  2.591289e+06  1504.1720   
+en                            Elastic Net  1163.7231  2.589970e+06  1497.7828   
+et                  Extra Trees Regressor  1257.7377  2.940161e+06  1506.1574   
+ridge                    Ridge Regression  1192.6735  2.645907e+06  1515.0358   
+llar         Lasso Least Angle Regression  1250.7770  2.792232e+06  1556.7057   
+lasso                    Lasso Regression  1250.7768  2.792232e+06  1556.7056   
+lar                Least Angle Regression  1252.7036  2.802136e+06  1559.2347   
+lr                      Linear Regression  1252.7036  2.802136e+06  1559.2347   
+rf                Random Forest Regressor  1323.0102  2.847692e+06  1544.1102   
+knn                 K Neighbors Regressor  1311.4267  2.987793e+06  1522.4636   
+ada                    AdaBoost Regressor  1331.7854  2.818220e+06  1561.2914   
+gbr           Gradient Boosting Regressor  1584.4991  3.825836e+06  1860.2348   
+dt                Decision Tree Regressor  1723.1500  5.364554e+06  2125.6148   
+lightgbm  Light Gradient Boosting Machine  2705.5901  1.074627e+07  3033.6186   
+dummy                     Dummy Regressor  2705.5901  1.074627e+07  3033.6186   
+
+              R2   RMSLE    MAPE  TT (Sec)  
+par       0.2511  0.0898  0.0714     0.003  
+huber     0.2404  0.0957  0.0752     0.003  
+omp       0.1730  0.1068  0.0871     0.003  
+br        0.1683  0.1081  0.0885     0.003  
+en        0.1675  0.1072  0.0873     0.003  
+et        0.1474  0.1174  0.1043     0.014  
+ridge     0.1434  0.1087  0.0898     0.003  
+llar      0.1150  0.1123  0.0944     0.003  
+lasso     0.1150  0.1123  0.0944     0.002  
+lar       0.1125  0.1125  0.0946     0.003  
+lr        0.1125  0.1125  0.0946     0.244  
+rf        0.0589  0.1213  0.1095     0.017  
+knn       0.0235  0.1195  0.1108     0.006  
+ada      -0.0636  0.1195  0.1062     0.009  
+gbr      -0.6273  0.1452  0.1272     0.006  
+dt       -1.2100  0.1708  0.1365     0.003  
+lightgbm -2.6423  0.2325  0.2299     0.004  
+dummy    -2.6423  0.2325  0.2299     0.003  
+Transformation Pipeline and Model Successfully Saved
+Model trained and saved.
+Model path: output_forecasts/customer1.0/pycaret_cd_po_selic_ipca/2025-08-05_20-32-41/model_customer1.0_pycaret_cd_po_selic_ipca
+Model comparison saved at: output_forecasts/customer1.0/pycaret_cd_po_selic_ipca/2025-08-05_20-32-41/model_comparison.csv
+Training finished at: 2025-08-05 20:32:46.893832

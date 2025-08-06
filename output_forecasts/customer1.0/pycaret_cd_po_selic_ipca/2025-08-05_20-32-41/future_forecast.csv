@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer1.0,2025-06,py_Passive,cd_po_selic_ipca,21804,,,
+customer1.0,2025-07,py_Passive,cd_po_selic_ipca,21804,,,
+customer1.0,2025-08,py_Passive,cd_po_selic_ipca,21804,,,
+customer1.0,2025-09,py_Passive,cd_po_selic_ipca,21804,,,

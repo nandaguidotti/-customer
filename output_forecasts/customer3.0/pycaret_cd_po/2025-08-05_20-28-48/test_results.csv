@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.0,2025-02-01,KNN,cd_po,4128,4400,-272,6.18
+customer3.0,2025-03-01,KNN,cd_po,4568,5160,-592,11.47
+customer3.0,2025-04-01,KNN,cd_po,4224,5120,-896,17.50
+customer3.0,2025-05-01,KNN,cd_po,4308,2880,1428,49.58

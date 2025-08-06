@@ -1,0 +1,22 @@
+Model,MASE,RMSSE,MAE,RMSE,MAPE,SMAPE,R2,TT (Sec)
+Auto ARIMA,0.6545,0.635,747.9771,953.1184,0.1215,0.1174,-0.7572,0.3767
+ARIMA,0.6621,0.6399,756.6649,960.4997,0.1228,0.1188,-0.7798,0.36
+Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.712,0.683,815.1419,1024.5906,0.1351,0.1274,-0.9718,0.03
+Bayesian Ridge w/ Cond. Deseasonalize & Detrending,0.712,0.683,815.2106,1024.6292,0.1351,0.1274,-0.972,0.0767
+Theta Forecaster,0.7171,0.6799,821.1726,1020.3104,0.1351,0.1285,-0.9994,0.0167
+Ridge w/ Cond. Deseasonalize & Detrending,0.7197,0.6864,823.8131,1029.6783,0.1364,0.1287,-0.9877,0.02
+Elastic Net w/ Cond. Deseasonalize & Detrending,0.7197,0.6864,823.8131,1029.6783,0.1364,0.1287,-0.9877,0.0867
+Linear w/ Cond. Deseasonalize & Detrending,0.7197,0.6864,823.8131,1029.6783,0.1364,0.1287,-0.9877,0.0733
+Lasso w/ Cond. Deseasonalize & Detrending,0.7197,0.6864,823.813,1029.6783,0.1364,0.1287,-0.9877,0.02
+Orthogonal Matching Pursuit w/ Cond. Deseasonalize & Detrending,0.7197,0.6864,823.8131,1029.6783,0.1364,0.1287,-0.9877,0.02
+Lasso Least Angular Regressor w/ Cond. Deseasonalize & Detrending,0.7197,0.6864,823.813,1029.6783,0.1364,0.1287,-0.9877,0.02
+Exponential Smoothing,0.7214,0.6826,826.0209,1024.4067,0.1359,0.1292,-1.0124,0.38
+Polynomial Trend Forecaster,0.7214,0.6826,826.0196,1024.405,0.1359,0.1292,-1.0124,0.4867
+Huber w/ Cond. Deseasonalize & Detrending,0.7386,0.6948,844.9789,1041.9872,0.1397,0.1318,-1.0162,0.0767
+Extra Trees w/ Cond. Deseasonalize & Detrending,0.8052,0.7302,920.9796,1095.5718,0.1521,0.1442,-1.2659,0.0533
+AdaBoost w/ Cond. Deseasonalize & Detrending,0.8184,0.7164,939.2382,1075.1325,0.1505,0.1452,-1.2702,0.0267
+Random Forest w/ Cond. Deseasonalize & Detrending,0.858,0.7424,985.7777,1113.5884,0.1606,0.1528,-1.3708,0.06
+K Neighbors w/ Cond. Deseasonalize & Detrending,0.8698,0.8091,995.3972,1213.2326,0.1625,0.1543,-1.6695,0.0433
+Gradient Boosting w/ Cond. Deseasonalize & Detrending,0.8849,0.7811,1019.7882,1175.7308,0.1541,0.155,-2.4617,0.0267
+Decision Tree w/ Cond. Deseasonalize & Detrending,0.8889,0.7861,1024.75,1181.223,0.1654,0.157,-2.1946,0.02
+ETS,0.9233,0.8506,1060.7918,1278.1122,0.1721,0.1662,-2.4611,0.3833

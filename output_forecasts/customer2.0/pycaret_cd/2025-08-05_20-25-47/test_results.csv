@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer2.0,2025-02,py_py_Polynomial,cd,14125,13760,365,2.65
+customer2.0,2025-03,py_py_Polynomial,cd,14132,13504,628,4.65
+customer2.0,2025-04,py_py_Polynomial,cd,14139,15616,-1476,9.45
+customer2.0,2025-05,py_py_Polynomial,cd,14147,15744,-1596,10.14

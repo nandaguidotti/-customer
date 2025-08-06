@@ -1,0 +1,3 @@
+[2025-08-05 20:12:06.288313] Training completed for customer2.1 - cd_po_selic_ipca
+[2025-08-05 20:40:21.739930] Starting prediction for customer2.1 - cd_po_selic_ipca
+[2025-08-05 20:40:21.922163] Prediction completed for customer2.1 - cd_po_selic_ipca

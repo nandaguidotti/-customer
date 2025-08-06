@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.1,2025-02-01,KNN,cd_selic,4580,2900,1680,57.93
+customer3.1,2025-03-01,KNN,cd_selic,3940,3700,240,6.49
+customer3.1,2025-04-01,KNN,cd_selic,5540,3700,1840,49.73
+customer3.1,2025-05-01,KNN,cd_selic,6560,4600,1960,42.61

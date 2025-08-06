@@ -1,0 +1,7 @@
+Prediction started at: 2025-08-05 20:42:20.447668
+Customer: customer4.1, Scenario: cd_po_selic_ipca
+Loaded model from: output_forecasts/customer4.1/rc_cd_po_selic_ipca/2025-08-05_20-22-39/model_customer4.1_rc_cd_po_selic_ipca.pkl
+Test results saved at: output_forecasts/customer4.1/rc_cd_po_selic_ipca/2025-08-05_20-22-39/test_results.csv
+Future forecast saved at: output_forecasts/customer4.1/rc_cd_po_selic_ipca/2025-08-05_20-22-39/future_forecast.csv
+✅ Results saved in: output_forecasts/customer4.1/rc_cd_po_selic_ipca/2025-08-05_20-22-39
+Prediction finished at: 2025-08-05 20:42:20.492831

@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer4.0,2025-06,py_py_ETS,cd,5680,,,
+customer4.0,2025-07,py_py_ETS,cd,5744,,,
+customer4.0,2025-08,py_py_ETS,cd,5808,,,
+customer4.0,2025-09,py_py_ETS,cd,5872,,,

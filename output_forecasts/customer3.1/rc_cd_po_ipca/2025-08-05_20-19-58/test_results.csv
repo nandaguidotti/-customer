@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer3.1,2025-02,rc,cd_po_ipca,4325,2900,1425,49.17
+customer3.1,2025-03,rc,cd_po_ipca,4454,3700,754,20.40
+customer3.1,2025-04,rc,cd_po_ipca,5662,3700,1962,53.03
+customer3.1,2025-05,rc,cd_po_ipca,4612,4600,12,0.27

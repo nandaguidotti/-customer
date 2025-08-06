@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer2.1,2025-02-01,KNN,cd_ipca,6284,6848,-563,8.22
+customer2.1,2025-03-01,KNN,cd_ipca,5875,6784,-908,13.40
+customer2.1,2025-04-01,KNN,cd_ipca,7219,7936,-716,9.03
+customer2.1,2025-05-01,KNN,cd_ipca,6720,8064,-1344,16.67

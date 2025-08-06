@@ -1,0 +1,5 @@
+customer,date,model,input,forecast_ai,customer_demand,diff,forecast_deviation_abs
+customer2.1,2025-02-01,py_Linear,cd_po,6217,6848,-630,9.21
+customer2.1,2025-03-01,py_Linear,cd_po,7559,6784,775,11.44
+customer2.1,2025-04-01,py_Linear,cd_po,7301,7936,-634,7.99
+customer2.1,2025-05-01,py_Linear,cd_po,8076,8064,12,0.15
